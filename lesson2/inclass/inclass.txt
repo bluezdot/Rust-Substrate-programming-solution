@@ -10,3 +10,7 @@ Cách để không đụng tới thằng khác, chỉ lấy vùng nhớ: s2 = &s
 Error: lỗi shared reference
 s2 trỏ tới &s1 => s2 không thể thay đổi !!
 => Giải pháp: let mut s2 = &mut s1;
+
+Tại một thời điểm, có thể tồn tại nhiều immutable references và chỉ 1 mutable reference
+
+*(dereference) là lấy giá trị, ngược với &
