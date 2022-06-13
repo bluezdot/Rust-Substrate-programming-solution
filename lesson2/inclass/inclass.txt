@@ -1,0 +1,4 @@
+Giá trị: Kiểu dữ liệu + thông tin cụ thể nằm trong vùng kiểu dữ liệu (VD: -2^31 -> 2^31 - 1)
+Biến: Lưu giá trị và biên dịch sẽ cung cấp vùng nhớ cho biến
+space
+Pointer: Giá trị lưu địa chỉ
