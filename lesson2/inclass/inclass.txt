@@ -2,3 +2,16 @@ Giá trị: Kiểu dữ liệu + thông tin cụ thể nằm trong vùng kiểu 
 Biến: Lưu giá trị và biên dịch sẽ cung cấp vùng nhớ cho biến
 space
 Pointer: Giá trị lưu địa chỉ
+
+Error: value borrowed here after move !!
+Khi s2 mượn giá trị s1 (s2 = s1) => giá trị ở s1 bị move sang s2 (s2 là owner mới)
+=> hiện tượng double free error (Không biết xóa thằng nào) => nguy hiểm
+Cách để không đụng tới thằng khác, chỉ lấy vùng nhớ: s2 = &s1
+
+Error: lỗi shared reference
+s2 trỏ tới &s1 => s2 không thể thay đổi !!
+=> Giải pháp: let mut s2 = &mut s1;
+
+Tại một thời điểm, có thể tồn tại nhiều immutable references và chỉ 1 mutable reference
+
+*(dereference) là lấy giá trị, ngược với &
