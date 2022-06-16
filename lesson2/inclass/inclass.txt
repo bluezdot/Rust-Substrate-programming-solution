@@ -1,6 +1,5 @@
 Giá trị: Kiểu dữ liệu + thông tin cụ thể nằm trong vùng kiểu dữ liệu (VD: -2^31 -> 2^31 - 1)
 Biến: Lưu giá trị và biên dịch sẽ cung cấp vùng nhớ cho biến
-space
 Pointer: Giá trị lưu địa chỉ
 
 Error: value borrowed here after move !!
@@ -14,4 +13,4 @@ s2 trỏ tới &s1 => s2 không thể thay đổi !!
 
 Tại một thời điểm, có thể tồn tại nhiều immutable references và chỉ 1 mutable reference
 
-*(dereference) là lấy giá trị, ngược với &
+* là lấy giá trị, ngược với &
