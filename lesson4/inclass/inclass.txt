@@ -1,1 +1,7 @@
+struct: Cấu trúc chung, behavior có thể khác
 
+trait: định nghĩa behavior có điểm chung
+implement S for P
+
+1 trait implement cho nhiều đối tượng có nhóm hành vi giống nhau
+1 struct implement cho 1 đối tượng với nhiều instance
