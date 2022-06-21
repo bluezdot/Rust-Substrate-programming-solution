@@ -1,0 +1,7 @@
+Class3 : Struct, Enum, Vec, Generic Type
+- Record Buổi học : https://youtu.be/9a4tG4ci0gQ
+- Slide: https://docs.google.com/presentation/d/1YX6nwWKtG8nJBWbHj5ltDWJkZshZAwgWaXRezUxOVek/edit?usp=sharing
+- Chú ý : Nên lấy các bài thực hành trong slice , chạy lại code và phân tích vấn đề.
+- Code sample : https://github.com/CocDap/VBI-Rust-Workshop-3/tree/develop/complex-type
+
+- Exercise: https://github.com/CocDap/VBI-Rust-Workshop-3/blob/develop/exercise-complex-type/src/main.rs 
