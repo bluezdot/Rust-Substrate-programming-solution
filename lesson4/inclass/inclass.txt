@@ -5,3 +5,18 @@ implement S for P
 
 1 trait implement cho nhiều đối tượng có nhóm hành vi giống nhau
 1 struct implement cho 1 đối tượng với nhiều instance
+
+
+
+------------
+
+
+
+Class4: Lifetime - Generic Type
+- Record Buổi học : BTC sẽ update sau ( hiện tại có vấn đề khi login Zoom)
+- Slide: https://docs.google.com/presentation/d/1Wgt2cpgUqEHF--TcK7jxeFN112F6Gvs8saDBFQhPrnY/edit?usp=sharing
+- Code sample : https://github.com/CocDap/VBI-Rust-Workshop-3/tree/develop/lifetime-trait
+
+- Exercise: https://github.com/CocDap/VBI-Rust-Workshop-3/tree/develop/exercise-lifetime-trait
+
+- Form submit(hạn nộp: trước 18h ngày 23/06/2022): https://forms.gle/9m8Vh47pQBnkEdmC8
