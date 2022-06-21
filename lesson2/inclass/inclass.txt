@@ -14,3 +14,20 @@ s2 trỏ tới &s1 => s2 không thể thay đổi !!
 Tại một thời điểm, có thể tồn tại nhiều immutable references và chỉ 1 mutable reference
 
 * là lấy giá trị, ngược với &
+
+
+
+------------
+
+
+
+
+- Record Buổi học : Meeting Recording:
+https://ssu-ac-kr.zoom.us/rec/share/fztZC0XhB0wDhRBvsjGRB-R4zJ0ONalP1jVvOYGOU0RTKZw1gbylgstW3eijVZDc.EvvFLt7rfWKLMTq0
+Access Passcode: 5m8BL!$z
+(Đang update ... trên youtube)
+- Slide: https://docs.google.com/presentation/d/1vduHQV3gCKg758ScQOjlI5KhB2uozNLIrxy5U1UEm0U/edit?usp=sharing
+
+- Code sample : https://github.com/CocDap/VBI-Rust-Workshop-3 (gồm có solution bài tập workshop 1 và code sample của ownership and borrowing)
+
+- Exercise: https://github.com/CocDap/VBI-Rust-Workshop-3/blob/develop/exercise-ownership-borrowing/src/main.rs#L6 (Mọi người xem và sửa lỗi liên quan tới Ownership và Borrowing nhé ạ)
