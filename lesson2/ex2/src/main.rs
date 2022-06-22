@@ -9,7 +9,7 @@ fn main() {
 
     while count < 10 {
         num += 2;
-        if vector_is_prime(num, primes) {
+        if vector_is_prime(num, &primes) {
             count += 1;
             primes.push(num);
         }
@@ -17,9 +17,9 @@ fn main() {
     println!("{:?}", primes);
 }
 
-fn vector_is_prime(num: u64, p: Vec<u64>) -> bool {
+fn vector_is_prime(num: u64, p: &Vec<u64>) -> bool {
     for i in p {
-        if num > i && num % i != 0 {
+        if num > *  i && num % i != 0 {
             return false;
         }
     }

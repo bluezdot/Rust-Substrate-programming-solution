@@ -8,7 +8,7 @@ fn main() {
     let mut max = 0;
     
     //for n in &mut values {
-    for n in v {
+    for n in &*v {
         max = std::cmp::max(max, *n);
     }
 

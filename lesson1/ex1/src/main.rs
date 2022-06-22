@@ -22,13 +22,13 @@ fn is_subset(sub_arr: &[i32], org_arr: &[i32]) -> bool {
     let mut i = 0;
     let mut j = 0;
 
-    if (sub_arr.len() == 0 && org_arr.len() == 0) {
+    if sub_arr.len() == 0 && org_arr.len() == 0 {
         is_subarray = false;
-        is_subarray;
+        return is_subarray;
     }
-    else if (sub_arr.len() == 0 && org_arr.len() != 0) {
+    else if sub_arr.len() == 0 && org_arr.len() != 0 {
         is_subarray = true;
-        is_subarray;
+        return is_subarray;
     }
     else {
         while i < org_arr.len() && j < sub_arr.len() {
