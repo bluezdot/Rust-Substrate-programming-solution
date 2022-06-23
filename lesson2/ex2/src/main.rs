@@ -1,6 +1,6 @@
 //Exercise 2
 // Mục đích: giải quyết vấn đề ownership và borrowing ko dùng clone()
-// Các bạn có thể sửa thêm logic để đúng với mục đichs bài này là liệt kê các số nguyên tố 
+// Các bạn có thể sửa thêm logic để đúng với mục đích bài này là liệt kê các số nguyên tố 
 fn main() {
     let mut count: u32 = 1;
     let mut num: u64 = 1;
