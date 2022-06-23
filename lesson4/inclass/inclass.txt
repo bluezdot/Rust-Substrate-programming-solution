@@ -13,7 +13,7 @@ implement S for P
 
 
 Class4: Lifetime - Generic Type
-- Record Buổi học : BTC sẽ update sau ( hiện tại có vấn đề khi login Zoom)
+- Record Buổi học : https://www.youtube.com/watch?v=TMwY6O3Jxpo
 - Slide: https://docs.google.com/presentation/d/1Wgt2cpgUqEHF--TcK7jxeFN112F6Gvs8saDBFQhPrnY/edit?usp=sharing
 - Code sample : https://github.com/CocDap/VBI-Rust-Workshop-3/tree/develop/lifetime-trait
 
