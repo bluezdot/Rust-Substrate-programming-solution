@@ -97,8 +97,12 @@ fn fibonacci_numbers() -> Fibonacci {
 }
 
 fn main() {
-    for number in fibonacci_numbers().into_iter() {
-        println!("number: {:#?}", number);
+    for number in fibonacci_numbers() {
+    println!("{}", number);
     }
+
+    // for number in fibonacci_numbers().into_iter() {
+    //     println!("number: {:#?}", number);
+    // }
 }
 
